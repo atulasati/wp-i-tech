@@ -1,4 +1,4 @@
-<footer>
+<footer class="footerNew">
     <div class="container">
         <div class="footerRow">
             <div class="footerCol footerCol-L">
@@ -19,7 +19,7 @@
             </div>
         </div>
     </div>
-    <div class="footerRowBottom">
+    <div class="footerRowBottom ">
         <div class="container">
             <div class="copyright">&copy; <?php echo esc_html(date_i18n(__('Y', 'blankslate'))); ?> <?php echo esc_html(get_bloginfo('name')); ?></div>
         </div>
