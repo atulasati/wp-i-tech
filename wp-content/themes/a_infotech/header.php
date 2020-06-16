@@ -7,7 +7,7 @@
     <?php wp_head(); ?>
     <script src="https://kit.fontawesome.com/fc7261c9f1.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
 </head>
 
@@ -17,9 +17,9 @@
         <div class="headerRowTop">
             <div class="container">
                 <span><i class="fa fa-map-marker"></i> Silver Market, RNT Road, Indore</span>
-                <span><i class="fas fa-phone-alt"></i> 93035-58009 </span>
-                <span><i class="fa fa-envelope"></i> <a href="mailto:info@asatiinfotech.com">info@asatiinfotech.com</a></span>
-                <span><i class="fab fa-whatsapp"></i> <a href="https://api.whatsapp.com/send?phone=+91-9303558009&text=hi">Whatsapp Chat</a></span>
+                <span><i class="fas fa-phone-alt"></i> <a href="tel:+919303558009" target="_blank">93035-58009</a> </span>
+                <span><i class="fa fa-envelope"></i> <a href="mailto:info@asatiinfotech.com" target="_blank">info@asatiinfotech.com</a></span>
+                <span><i class="fab fa-whatsapp"></i> <a href="https://api.whatsapp.com/send?phone=+91-9303558009&text=hi" target="_blank">Whatsapp Chat</a></span>
 
             </div>
         </div>

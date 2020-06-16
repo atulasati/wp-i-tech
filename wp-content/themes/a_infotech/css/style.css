@@ -127,6 +127,9 @@ footer {
     align-items: center;
     display: inline-flex;
 }
+.headerRowTop span i.fa-whatsapp {
+    color: #47dc35;
+}
 .mainContainer {
     padding: 40px 0;
 }
